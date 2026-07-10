@@ -1,0 +1,71 @@
+{
+    "type": "error.SuiteScriptError",
+    "name": "INVALID_FLD_VALUE",
+    "message": "You have entered an Invalid Field Value 4t423134242 for the following field: issueinventorynumber",
+    "id": "",
+    "stack": [
+        "Error\n at RecordInvoker.setCurrentSublistValue (suitescript/resources/javascript/record/serverRecordService.js:431:5)\n 
+        at NetSuiteObject.thenableFunction() (suitescript/resources/javascript/record/proxy.js: 115: 24)\n at 
+        createInventoryAdjustment (/SuiteScripts/NH_MR_Update_AverageCost_On_Item.js: 223: 26)\n at Object.reduce (/SuiteScripts/NH_MR_Update_AverageCost_On_Item.js: 88: 34)"
+    ],
+    "cause": {
+        "type": "internal error",
+        "code": "INVALID_FLD_VALUE",
+        "details": "You have entered an Invalid Field Value 4t423134242 for the following field: issueinventorynumber",
+        "userEvent": null,
+        "stackTrace": [
+            "Error\n at RecordInvoker.setCurrentSublistValue (suitescript/resources/javascript/record/serverRecordService.js:431:5)\n at NetSuiteObject.thenableFunction() (suitescript/resources/javascript/record/proxy.js:115:24)\n at createInventoryAdjustment (/SuiteScripts/NH_MR_Update_AverageCost_On_Item.js:223:26)\n at Object.reduce (/SuiteScripts/NH_MR_Update_AverageCost_On_Item.js:88:34)"
+        ],
+        "notifyOff": false
+    },
+    "notifyOff": false,
+    "userFacing": true
+}
+
+{
+    "itemId": "8",
+    "location": "2",
+    "serials": [
+        {
+            "id": "41643",
+            "number": "PTT-24-2034-0017"
+        },
+        {
+            "id": "41642",
+            "number": "PTT-24-2073-0029"
+        },
+        {
+            "id": "48299",
+            "number": "PTT-24-2582-0014"
+        },
+        {
+            "id": "42360",
+            "number": "PTT-24-2821-0020"
+        },
+        {
+            "id": "48291",
+            "number": "PTT-24-2873-0023"
+        },
+        {
+            "id": "48297",
+            "number": "PTT-24-3017-0001"
+        },
+        {
+            "id": "72619",
+            "number": "testbcc1"
+        },
+        {
+            "id": "72620",
+            "number": "testbcc2"
+        },
+        {
+            "id": "72621",
+            "number": "testbcc3"
+        }
+    ],
+    "quantity": -1,
+    "cost": 6672,
+    "averageCost": "6706.48",
+    "dateOffsetDays": -1,
+    "isPositive": false
+}
