@@ -3,6 +3,7 @@ console.log("Test111111");
 console.log("Test2");
 console.log("Test3");
 console.log("Test4");
+<<<<<<< HEAD
 console.log("Test5");
 
 Test5
@@ -28,3 +29,6 @@ if (parseFloat(averageCost) !== parseFloat(cost)) {
 
 
 
+=======
+console.log("Test5");
+>>>>>>> 3107ae141bef590ddebfb9b113cdb108450983a5
